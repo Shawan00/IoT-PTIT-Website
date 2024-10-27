@@ -1,0 +1,19 @@
+img {
+    padding: 10% 25%;
+}
+.ac-icon {
+    width: 100px;
+    height: 100px;
+    fill: #007bff;
+}
+
+.ac-icon .wave {
+    animation: waveAnimation 2s infinite;
+    opacity: 0.6;
+}
+
+@keyframes waveAnimation {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(5px); }
+    100% { transform: translateY(0); }
+}

@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+.pagination {
+    position: fixed;
+    bottom: 1px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+.records_size {
+    position: fixed;       /* Cố định vị trí */
+    bottom: 2.5vh;
+    right: 15vw;
+}
+
+.pagination ul{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background: #fff;
+  padding: 2px;
+  border-radius: 50px;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+}
+.pagination ul li{
+  color: #3C91E6;
+  list-style: none;
+  line-height: 35px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.3s ease;
+}
+.pagination ul li.numb{
+  list-style: none;
+  height: 35px;
+  width: 35px;
+  margin: 0 3px;
+  line-height: 35px;
+  border-radius: 50%;
+}
+.pagination ul li.numb.first{
+  margin: 0px 3px 0 -5px;
+}
+.pagination ul li.numb.last{
+  margin: 0px -5px 0 3px;
+}
+.pagination ul li.dots{
+  font-size: 17px;
+  cursor: default;
+}
+.pagination ul li.btn{
+  padding: 0 20px;
+  border-radius: 50px;
+}
+.pagination li.active,
+.pagination ul li.numb:hover,
+.pagination ul li:first-child:hover,
+.pagination ul li:last-child:hover{
+  color: #fff;
+  background: #3C91E6;
+}
