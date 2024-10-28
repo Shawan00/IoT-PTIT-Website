@@ -16,10 +16,9 @@ public class MqttGateway {
     }
 
     public void sendLedCommand(String ledId, String action) {
-        String topic = "led/control"; // Đặt topic điều khiển LED
-        String message = ledId + "/" + action; // Format tin nhắn, ví dụ: "led1/on"
+        String topic = "led/control";
+        String message = ledId + "/" + action;
 
-        // Tạo và gửi tin nhắn qua kênh MQTT outbound
         mqttOutboundChannel.send(MessageBuilder.withPayload(message).setHeader("mqtt_topic", topic).build());
     }
 }

@@ -13,7 +13,6 @@ public class DataSensor {
     private double temperature;
     private double humidity;
     private double brightness;
-//    private double other;
     private LocalDateTime dateTime;
 
     public DataSensor() {
