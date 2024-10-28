@@ -4,14 +4,14 @@
 Bạn có thể xem chi tiết về dự án tại [đây](https://drive.google.com/file/d/11XLGG6zAexkFONi131BrgzNLj7N0UowN/view?usp=drive_link).
 ## Hướng dẫn chạy
 ### Bước 1: Chuẩn bị
-* Phần cứng thiết bị gồm:
+Phần cứng thiết bị gồm:
 - 1 Breadboard
 - 1 Module thu phát Wifi ESP8266 NodeMCU
 - 1 DHT11
 - 1 cảm biến ánh sáng LDR
 - 3 đèn LED
 Chi tiết cách nối mạch xem trong tài liệu đi kèm.
-* Cài đặt MQTT broker
+Cài đặt MQTT broker
 ### Bước 2: Nạp code vào ESP8266
 - Sử dụng phần mềm Arduino IDE hoặc PlatformIO trong VS Code để mở file hardware/main.cpp
 - Thay đổi tên mạng Wifi và mật khẩu tại dòng 6, 7
