@@ -19,8 +19,11 @@ Bạn có thể xem chi tiết về dự án tại [đây](https://drive.google.
 - Upload code vào ESP8266
 ### Bước 3: Tạo cơ sở dữ liệu
 Sử dụng hệ quản trị cơ sở dữ liệu MySQL và tạo một cơ sở dữ liệu tên iotptit
+
 Tại file src/main/resources/application.properties thay đổi username và password thành username và password đã cài đặt trong MySQL
 ### Bước 4: Chạy dự án
 Sử dụng một IDE cho java để mở dự án và chạy file src/main/java/com/ptit/ProjectIoT/ProjectIoTApplication.java
+
 Cấp nguồn điện cho ESP8266
+
 Mở http://localhost:8080 để theo dõi website
